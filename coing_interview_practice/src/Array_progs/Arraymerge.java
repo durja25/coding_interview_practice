@@ -3,7 +3,7 @@ package Array_progs;
 
 import java.util.*;
 
-public class marge {
+public class Arraymerge {
 
     // public static void main(String[] args) {
     //     int arr[] = { 12, 35, 1, 10, 34, 1 };

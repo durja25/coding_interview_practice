@@ -1,6 +1,6 @@
 package Array_progs;
 
-public class divby {
+public class Arraydivby {
     public static void main(String[] args) {
         int arr[] = { 2, 3, 4, 6, 8, 9,10 };
 

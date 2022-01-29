@@ -1,6 +1,6 @@
 package Array_progs;
 
-public class piramid {
+public class Piramid {
 
     public static void main(String[] args) {
         // int n = 7;

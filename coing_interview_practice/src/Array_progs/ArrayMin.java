@@ -1,6 +1,6 @@
 package Array_progs;
 
-public class mininarr {
+public class ArrayMin {
     public static void main(String[] args) {
         int arr[] = { 12, 35, 1, 10, 34, 1 };
         int min = arr[0];

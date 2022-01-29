@@ -1,6 +1,6 @@
 package Array_progs;
 
-public class arrsum {
+public class Array_Prime_Sum {
 
     public static int sum(int arr[]){
         int sum= 0;

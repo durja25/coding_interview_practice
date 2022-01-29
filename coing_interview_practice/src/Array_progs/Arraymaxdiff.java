@@ -1,6 +1,6 @@
 package Array_progs;
 
-public class maxdiff {
+public class Arraymaxdiff {
     // Max difference between two elements of array.
     public static void main(String[] args) {
         // int arr []= {4, 2, 4, 5, 2, 3, 1};

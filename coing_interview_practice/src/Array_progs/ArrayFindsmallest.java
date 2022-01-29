@@ -1,6 +1,6 @@
 package Array_progs;
 import java.util.*;
-public class arrsmall {
+public class ArrayFindsmallest {
 
     public static void main(String[] args) {
         int a [] = { 8, 15, 1, 10, 4, 2 };
