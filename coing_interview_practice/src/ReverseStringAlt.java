@@ -1,6 +1,6 @@
 // import java.util.Arrays;
 
-public class revstr {
+public class ReverseStringAlt {
 
     // Reverse Sentence
     // static String reverse(String str){

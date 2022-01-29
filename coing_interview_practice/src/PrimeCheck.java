@@ -1,6 +1,6 @@
 import java.security.Principal;
 
-public class isPrime {
+public class PrimeCheck {
 
     public static boolean prime(int n) {
 

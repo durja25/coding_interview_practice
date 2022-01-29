@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fyoldTriangle {
+public class FyoldTriangle {
 
 	private static Scanner in;
 

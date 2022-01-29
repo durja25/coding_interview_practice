@@ -1,5 +1,6 @@
+package Array_progs;
 // find repeating numbers in an array
-public class repeatedNum {
+public class ArrayRepeatedNum {
 
     public static void repnum(int arr[], int arr_size) {
 

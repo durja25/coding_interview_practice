@@ -1,5 +1,5 @@
 
-public class parse {
+public class ParseInt {
 
     public int toInt(String s) throws NumberFormatException {
         int num = 0;

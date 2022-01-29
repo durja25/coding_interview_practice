@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class largestNum {
+public class FindLargestNum {
 
 	private static Scanner in;
 

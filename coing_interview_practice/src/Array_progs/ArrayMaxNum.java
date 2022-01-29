@@ -1,4 +1,5 @@
-public class maxinarr {
+package Array_progs;
+public class ArrayMaxNum {
     public static void main(String[] args) {
         int arr[] = { 12, 35, 100, 10, 34, 1 };
         int max = 0;

@@ -1,4 +1,5 @@
-public class secondmax {
+package Array_progs;
+public class ArraySecondMax {
     // public static void print2max(int arr[],int arr_size) {
     //     int i,first,second;
 

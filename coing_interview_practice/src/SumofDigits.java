@@ -1,5 +1,5 @@
 // Sum of a digit of a number like 467=17  
-public class sumofdigits {
+public class SumofDigits {
 
     // static int getsum(int n){
 

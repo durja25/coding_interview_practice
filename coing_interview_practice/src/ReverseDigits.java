@@ -1,4 +1,4 @@
-public class reverseNum {
+public class ReverseDigits {
 
     public static void main(String[]args) {
         int num=123;

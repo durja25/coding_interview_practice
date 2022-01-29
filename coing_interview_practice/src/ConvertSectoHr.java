@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class converttos {
+public class ConvertSectoHr {
     //how to convert seconds to hours/minutes/seconds?
     public static void main(String[]args){
 		Scanner sc = new Scanner(System.in);

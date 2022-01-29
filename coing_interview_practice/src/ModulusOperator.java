@@ -1,4 +1,4 @@
-public class modulusOperator {
+public class ModulusOperator {
     public static void main(String[] args) {
         System.out.println("java modulus op ");
         int i = 50;

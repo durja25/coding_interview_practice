@@ -1,7 +1,7 @@
 // check whether string is unique or not.
 
 import java.util.*;
-public class strunq {
+public class FindAllCharUnique {
 
     // simple cmp
     // boolean unqchar(String str){
@@ -16,7 +16,7 @@ public class strunq {
     //     return true;
     // }
     // public static void main(String[] args) {
-    //     strunq obj = new strunq();
+//		   FindAllCharUnique obj = new FindAllCharUnique();
     //     String input = "GeeksforGeeks";
     //     if (obj.unqchar(input)) {
     //         System.out.println("The String " + input + " has all unique characters");
@@ -44,7 +44,7 @@ public class strunq {
         return true;
     }
     public static void main(String[] args) {
-        strunq obj = new strunq();
+        FindAllCharUnique obj = new FindAllCharUnique();
         String input = "Ganesh";
         if (obj.unqchar(input)) {
             System.out.println("The String " + input + " has all unique characters");

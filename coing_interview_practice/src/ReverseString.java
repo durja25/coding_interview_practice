@@ -1,5 +1,5 @@
 // reverse string with replacing space with % 
-public class revre {
+public class ReverseString {
 
     public static void main(String[] args) {
         String sen[] = "i like this program very much maybe".split(" ");

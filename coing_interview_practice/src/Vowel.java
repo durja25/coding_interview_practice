@@ -1,4 +1,4 @@
-public class vowel {
+public class Vowel {
 
     static boolean isvowel(char ch){
         ch = Character.toUpperCase(ch);
