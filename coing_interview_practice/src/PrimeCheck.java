@@ -1,4 +1,3 @@
-import java.security.Principal;
 
 public class PrimeCheck {
 
