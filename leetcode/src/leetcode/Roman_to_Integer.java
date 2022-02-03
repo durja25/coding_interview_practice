@@ -29,42 +29,33 @@ public class Roman_to_Integer {
 	 * second; } return sum+first; }
 	 */
 	public int romanToInt(String s) {
-		HashMap<Character,Integer> check = new HashMap<>();
-        //Putting value sinto hashmap
-        check.put('I',1);
-        check.put('V',5);
-        check.put('X',10);
-        check.put('L',50);
-        check.put('C',100);
-        check.put('D',500);
-        check.put('M',1000);
-        
-        int sum = check.get(s.charAt(s.length()-1));
-        for (int i = s.length()-2; i >=0 ; i--) {
-        	if (check.get(s.charAt(i))<check.get(s.charAt(i+1))) {
-        		sum -= check.get(s.charAt(i));
-        					
-			}else {
-				sum +=check.get(s.charAt(i))
+		HashMap<Character, Integer> check = new HashMap<>();
+		// Putting value sinto hashmap
+		check.put('I', 1);
+		check.put('V', 5);
+		check.put('X', 10);
+		check.put('L', 50);
+		check.put('C', 100);
+		check.put('D', 500);
+		check.put('M', 1000);
+
+		int sum = check.get(s.charAt(s.length() - 1));
+		for (int i = s.length() - 2; i >= 0; i--) {
+			if (check.get(s.charAt(i)) < check.get(s.charAt(i + 1))) {
+				sum -= check.get(s.charAt(i));
+
+			} else {
+				sum += check.get(s.charAt(i));
 			}
-			
+
 		}
-		
+		return sum;
 	}
+
 	public static void main(String[] args) {
 		String s = "MCMXCIV";
 		Roman_to_Integer obj = new Roman_to_Integer();
 		System.out.println(obj.romanToInt(s));
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }

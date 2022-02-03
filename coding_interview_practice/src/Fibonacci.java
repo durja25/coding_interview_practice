@@ -14,14 +14,15 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        
+
         try (Scanner sc = new Scanner(System.in)) {
-            
+
             System.out.println("input int ");
             int n = sc.nextInt();
             System.out.println("input:" + n);
-            
+
             System.out.println(fib(n));
+
         }
     }
 }

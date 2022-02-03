@@ -1,23 +1,45 @@
 package leetcode;
-
+import java.util.Scanner;
 public class SumWithCarry {
-//	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-//	    ListNode dummyHead = new ListNode(0);
-//	    ListNode p = l1, q = l2, curr = dummyHead;
-//	    int carry = 0;
-//	    while (p != null || q != null) {
-//	        int x = (p != null) ? p.val : 0;
-//	        int y = (q != null) ? q.val : 0;
-//	        int sum = carry + x + y;
-//	        carry = sum / 10;
-//	        curr.next = new ListNode(sum % 10);
-//	        curr = curr.next;
-//	        if (p != null) p = p.next;
-//	        if (q != null) q = q.next;
-//	    }
-//	    if (carry > 0) {
-//	        curr.next = new ListNode(carry);
-//	    }
-//	    return dummyHead.next;
-//	}
+    // Definition for singly-linked list.
+    public static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode ret = new ListNode(0);
+        ListNode cur = ret;
+
+        int sum = 0;
+        while (true) {
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            cur.val = sum % 10;
+            sum /= 10;
+            if (l1 != null || l2 != null || sum != 0) {
+                cur = (cur.next = new ListNode(0));
+            } else {
+                break;
+            }
+        }
+        return ret;
+    }
+
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        SumWithCarry s = new SumWithCarry();
+        // System.out.println("Not test case");
+    }
 }
