@@ -39,7 +39,8 @@ public class SumWithCarry {
 
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
-        SumWithCarry s = new SumWithCarry();
+        // SumWithCarry s = new SumWithCarry();
         // System.out.println("Not test case");
+        cin.close();
     }
 }
