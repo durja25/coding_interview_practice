@@ -9,8 +9,8 @@ public class FahrenheitToCelsius {
         float Celsius;
         in = new Scanner(System.in);
         System.out.println("enter value of fe");
-        Celsius = in.nextInt();
-        Celsius = ((Celsius - 32) * 5) / 9;
+        float Fahrenheit = in.nextInt();
+        Celsius = ((Fahrenheit - 32) * 5) / 9;
         System.out.println("temp in Celsius=" + Celsius);
 
     }
