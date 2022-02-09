@@ -1,5 +1,5 @@
 
-public class daymonth {
+public class DayMonth {
 	public static void main(String[]args) {
 		int num=Integer.parseInt(args[0]);
 		int days=num%30;

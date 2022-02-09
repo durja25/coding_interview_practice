@@ -1,5 +1,5 @@
 
-public class symbol {
+public class Symbol {
 	//how canyou print a copyright symbol in java?
 	
 		public static void  main(String[]args) {

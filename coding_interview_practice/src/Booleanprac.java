@@ -1,4 +1,4 @@
-public class booleanprac {
+public class Booleanprac {
     public static void main(String args[]) {
         boolean A = true;
         boolean B = false;
