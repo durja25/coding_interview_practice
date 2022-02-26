@@ -44,13 +44,13 @@ public class FindAllCharUnique {
     // }
 
     public static void main(String[] args) {
-    FindAllCharUnique obj = new FindAllCharUnique();
-    String input = "strings";
-    if (areUniqueChars(input)) {
-    System.out.println("The String " + input + " has all unique characters");
+        FindAllCharUnique obj = new FindAllCharUnique();
+        String input = "strings";
+        if (areUniqueChars(input)) {
+            System.out.println("The String " + input + " has all unique characters");
 
-    } else
-    System.out.println("The String " + input + " has duplicate characters");
+        } else
+            System.out.println("The String " + input + " has duplicate characters");
     }
 
     public static boolean areUniqueChars(String str) {

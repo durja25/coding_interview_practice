@@ -17,7 +17,7 @@ public class Vowel {
         return count;
     }
     public static void main(String[] args) {
-        String s = "ganesh";
+        String s = "string";
         System.out.println(itr(s));
 
     }
